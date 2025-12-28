@@ -2,7 +2,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 // ==================== CONFIGURATION ====================
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://bebaswww1324_db_user:WLfdbXGhpI6e0YR0@cluster0.xwc3ege.mongodb.net/ultimate_game_store?retryWrites=true&w=majority';
+const MONGODB_URI = process.env.MONGODB_URI || 'MASUKAN_URL_MONGODB_LU';
 
 // ==================== SCHEMAS ====================
 const userSchema = new mongoose.Schema({
